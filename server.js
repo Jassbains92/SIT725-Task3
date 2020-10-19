@@ -28,6 +28,6 @@ app.get('/adder', function (req, res) {
   });
   
 
-var port = 3000;
+var port = 8080;
 app.listen(port);
 log('Server listening on port: ' + port);
